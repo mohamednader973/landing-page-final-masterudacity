@@ -25,4 +25,4 @@ This is a basic landing page that uses Javascript to create a NavBar dynamically
 - one can also use inspect element to view styling ,responsivenessm,html elements and console log.
 
 **notes........**
-the code was identified by using by JS beautifier
+- the code was identified by using by JS beautifier
