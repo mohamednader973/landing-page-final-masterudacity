@@ -15,9 +15,9 @@ This is a basic landing page that uses Javascript to create a NavBar dynamically
 
 **project consists of.......**
 
-1.index file in which html and content of website is included
-2.css folder in which css file is included responsible for styling and animations
-3.js folder in which javaScript folder is included responsible for formation of navbar menu and scorlling ,clicking, hovering effects 
+- index file in which html and content of website is included
+- css folder in which css file is included responsible for styling and animations
+- js folder in which javaScript folder is included responsible for formation of navbar menu and scorlling ,clicking, hovering effects 
 
 
 **How to run the project........**
