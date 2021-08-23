@@ -114,7 +114,7 @@ function clickElement(e) {
     //clicked section border
     document.querySelector('#section' + matches[0]).style.border = "1px solid yellow";
 
-    var filtered = arr2.filter(function(value, index, arr) {
+    let filtered = arr2.filter(function(value, index, arr) {
         return matches[0] != value;
     });
 // loop that regains default styles for navbar element which aren't clicked
