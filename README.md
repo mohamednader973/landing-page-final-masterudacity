@@ -5,10 +5,10 @@ This project is for Udacity's Front End Nanodegree program. HTML and CSS starter
 This is a basic landing page that uses Javascript to create a NavBar dynamically and to highlight sections when scrolled. The project uses HTML, CSS, and Javascript.
 
 
-######References that you have used
-1.stack overflow 
-2.w3 school for javascript
-3.udacity lessons & practices
+**References that you have used......**
+- stack overflow 
+- w3 school for javascript
+- udacity lessons & practices
 
 
 **Brief about important files in my project**
