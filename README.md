@@ -23,3 +23,6 @@ This is a basic landing page that uses Javascript to create a NavBar dynamically
 **How to run the project........**
 - one have to run the index file using one of the famous browsers (chrome,opera,firefox,...etc.).
 - one can also use inspect element to view styling ,responsivenessm,html elements and console log.
+
+**notes........**
+the code was identified by using by JS beautifier
