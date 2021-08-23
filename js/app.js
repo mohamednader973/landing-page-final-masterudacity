@@ -21,7 +21,6 @@ function createNavElements() {
         ItemLinkFlag = listitem[o].className;
         document.querySelector('.' + ItemLinkFlag).appendChild(listitemlink[o]);
     }
-    console.log(listitemlink);
 }
 
 
@@ -31,7 +30,6 @@ let listitemln = [];
 listitemln = document.querySelectorAll('#navbar__list li a');
 for (let item of listitemln) {
     let varflag = '.' + item.className;
-    console.log(varflag);
 
     document.querySelector(varflag).addEventListener("click", clickElement);
     document.querySelector(varflag).addEventListener("mouseover", hoverElement);
@@ -46,7 +44,7 @@ let rsst = rs.getPropertyValue('--color-backgr');
 
 let dimension1 = document.querySelector('.page__header').getBoundingClientRect().top;
 let dimensionRound1 = Math.floor(dimension1);
-console.log(dimensionRound1);
+
 //onscroll function
 window.onscroll = function() {
     myFunction()
@@ -72,10 +70,10 @@ function myFunction() {
                 document.querySelector(".listnavlinkelement" + num).style.borderRadius = "0.5rem";
                 document.querySelector('#section' + num).style.border = "1px solid yellow";
                 //determining the sections not inview
-                var filtered = arrflag.filter(function(value, index, arr) {
+                let filtered = arrflag.filter(function(value, index, arr) {
                     return index + 1 != num;
                 });
-                for (var value of filtered) {
+                for (const value of filtered) {
                     let vallink = value.replace("#section", "");
                     document.querySelector('.listnavlinkelement' + vallink).style.removeProperty("background-color");
                     document.querySelector('.listnavlinkelement' + vallink).style.color = rss;
@@ -102,7 +100,7 @@ function clickElement(e) {
     let variable = e.target.className;
     let arr2 = [];
     let elementColor = e.target.style.color;
-    var matches = variable.match(/(\d+)/);  // get the number of clicked section
+    let matches = variable.match(/(\d+)/);  // get the number of clicked section
     // move from navbar to clicked section
     let sec = document.querySelector('#section' + matches[0]);
     sec.scrollIntoView();
