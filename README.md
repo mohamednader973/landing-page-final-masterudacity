@@ -13,7 +13,7 @@ This is a basic landing page that uses Javascript to create a NavBar dynamically
 
 ##Brief about important files in my project
 
-#project consists of 
+###### project consists of 
 
 1.index file in which html and content of website is included
 2.css folder in which css file is included responsible for styling and animations
@@ -21,5 +21,5 @@ This is a basic landing page that uses Javascript to create a NavBar dynamically
 
 
 ##How to run the project.
-# one have to run the index file using one of the famous browsers (chrome,opera,firefox,...etc.).
-# one can also use inspect element to view styling ,responsivenessm,html elements and console log.
+- one have to run the index file using one of the famous browsers (chrome,opera,firefox,...etc.).
+- one can also use inspect element to view styling ,responsivenessm,html elements and console log.
