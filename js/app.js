@@ -103,7 +103,7 @@ function clickElement(e) {
     let matches = variable.match(/(\d+)/);  // get the number of clicked section
     // move from navbar to clicked section
     let sec = document.querySelector('#section' + matches[0]);
-    sec.scrollIntoView();
+    sec.scrollIntoView({behavior: "smooth"});
 
     // clicked section new styling
     e.target.style.backgroundColor = rsst;
